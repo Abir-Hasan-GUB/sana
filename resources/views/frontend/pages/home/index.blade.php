@@ -1,0 +1,12 @@
+@extends('app')
+@section('contents')
+    @include('frontend.pages.home.banner')
+    @include('frontend.pages.home.clients')
+    @include('frontend.pages.home.why_choose_us')
+    @include('frontend.pages.home.our_story')
+    @include('frontend.pages.home.client_review')
+    @include('frontend.pages.home.features')
+    @include('frontend.pages.home.comming_next')
+    @include('frontend.pages.home.faq')
+    @include('frontend.pages.home.cta')
+@endsection

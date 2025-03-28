@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Index |  SANA
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A description of the website for search engines and social media.">
+    <meta property="og:title" content="Index">
+    <meta property="og:description" content="A description of the page.">
+    <meta property="og:image" content="./images/og-image.png">
+    <meta property="og:url" content="https://example.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://example.com/">
+
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/fontawesome.all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/splide.min.css">
+	<link rel="stylesheet" href="./styles/splide-core.min.css">
+
+    <script src="./scripts/fontawesome.solid.js" defer></script>
+	<script src="./scripts/splide.min.js"></script>
+	<script src="./scripts/splide.scroll.min.js"></script>
+</head>
+<body>
+
+    <!-- header -->
+<!-- header -->
+<header class="bg-secondary" style="z-index: 10000;">
+    <div class="container text-center text-md-start">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 justify-content-between gap-4">
+            <div class="">
+                <a class="navbar-brand" href="index.html">
+                    <img id="navbar-logo-img" src="./images/logo.png" alt="Navbar Logo" height="50">
+                </a>
+            </div>
+            <button id="navbar-menu-btn" class="navbar-toggler py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 2.7rem;">
+                <i id="navbar-menu-open-icon" class="fas fa-bars"></i>
+                <i id="navbar-menu-close-icon" class="fas fa-times d-none"></i>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav align-items-center gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item ms-lg-3 d-flex gap-2">
+                        <a href="join.html" class="btn btn-primary rounded-pill p-2 px-4">
+                            join Waitlist
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- header : end -->
+
+
+<!-- main body content -->
+<main>
+    <!-- hero section -->
+    <section class="bg-secondary">
+        <div class="pat-overlay">
+            <div class="container text-center text-md-start">
+                <div class="d-flex flex-column flex-lg-row gap-5 justify-content-between">
+                    <div class="col-lg-5 py-5 my-auto">
+                        <div class="py-4 d-none d-lg-block"></div>
+                        <h1 class="display-5 mb-3">
+                            Transform Your Wellness Experience All on Your Phone
+                        </h1>
+                        <div class="mb-3">
+                            Book or get booked, manage your practice, and easily access a health shop—right from one powerful mobile app.
+                        </div>
+                        <a href="index.html" class="btn btn-primary rounded-pill p-2 px-4">
+                            Join the Waitlist
+                        </a>
+                        <div class="py-4 d-none d-lg-block"></div>
+                    </div>
+                    <div class="col mt-auto">
+                        <img src="./images/hero.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section : end -->
+
+    <!-- clients section -->
+    <section class="bg-primary">
+        <div class="py-4 position-relative">
+            <div class="fade-side-overlay "></div>
+            <div class="d-flex flex-column gap-2 text-center text-md-start">
+                <div class="splide clients" role="group">
+                    <div class="splide__track">
+                        <ul class="splide__list align-items-center text-center">
+                            <li class="splide__slide"><img src="./images/client1.png" alt="" loading="lazy" height="40" /></li>
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    new Splide('.splide.clients', {
+                        type: 'loop', drag: 'free',
+                        focus: 'center', perPage: 5,
+                        autoScroll: { speed: 1, },
+                        arrows: false, pagination: false,
+                        breakpoints: {
+                            1200: {
+                                perPage: 3,
+                            },
+                            768: {
+                                perPage: 1,
+                            }
+                        }
+                    }).mount(window.splide.Extensions);
+                </script>
+            </div>
+        </div>
+    </section>
+    <!-- clients section : end -->
+
+    <!-- why choose us -->
+    <section id="why-us" class="bg-white py-5">
+        <div class="overlay py-3" data-aos="fade-up">
+            <div class="container text-center px-4">
+                <h1 class="mb-3">
+                    Why Choose SANA?
+                </h1>
+                <div class="col-lg-5 mb-4 mx-auto">
+                    Effortless booking, streamlined management, and a built-in health shop—on mobile.
+                </div>
+                <div class="row gy-4 justify-content-center">
+
+                        <div class="col-sm-6 col-lg-4 col-xl-3" data-aos="zoom-out" data-aos-offset="0">
+                            <div class="d-flex flex-column gap-2 rounded-3 p-4 h-100">
+                                <div class="mb-3">
+                                    <img src="./images/why-icon1.png" alt="" height="100">
+                                </div>
+                                <h5 class="mb-2 fw-bold">All-in-One Practice</h5>
+                                <div class="small">
+                                    Scheduling, billing , and documentation—no more juggling multiple tools.
+                                </div>
+                                <div class="py-2"></div>
+                                <div class="mt-auto">
+                                    <a href="index.html" class="btn btn-outline-primary rounded-pill p-2 px-4">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4 col-xl-3" data-aos="zoom-out" data-aos-offset="0">
+                            <div class="d-flex flex-column gap-2 rounded-3 p-4 h-100">
+                                <div class="mb-3">
+                                    <img src="./images/why-icon2.png" alt="" height="100">
+                                </div>
+                                <h5 class="mb-2 fw-bold">All-in-One Practice</h5>
+                                <div class="small">
+                                    Scheduling, billing , and documentation—no more juggling multiple tools.
+                                </div>
+                                <div class="py-2"></div>
+                                <div class="mt-auto">
+                                    <a href="index.html" class="btn btn-outline-primary rounded-pill p-2 px-4">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4 col-xl-3" data-aos="zoom-out" data-aos-offset="0">
+                            <div class="d-flex flex-column gap-2 rounded-3 p-4 h-100">
+                                <div class="mb-3">
+                                    <img src="./images/why-icon3.png" alt="" height="100">
+                                </div>
+                                <h5 class="mb-2 fw-bold">All-in-One Practice</h5>
+                                <div class="small">
+                                    Scheduling, billing , and documentation—no more juggling multiple tools.
+                                </div>
+                                <div class="py-2"></div>
+                                <div class="mt-auto">
+                                    <a href="index.html" class="btn btn-outline-primary rounded-pill p-2 px-4">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4 col-xl-3" data-aos="zoom-out" data-aos-offset="0">
+                            <div class="d-flex flex-column gap-2 rounded-3 p-4 h-100">
+                                <div class="mb-3">
+                                    <img src="./images/why-icon4.png" alt="" height="100">
+                                </div>
+                                <h5 class="mb-2 fw-bold">All-in-One Practice</h5>
+                                <div class="small">
+                                    Scheduling, billing , and documentation—no more juggling multiple tools.
+                                </div>
+                                <div class="py-2"></div>
+                                <div class="mt-auto">
+                                    <a href="index.html" class="btn btn-outline-primary rounded-pill p-2 px-4">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- why choose us : end -->
+
+    <!-- our story -->
+    <section id="story" class="bg-white">
+        <div class="overlay py-5">
+            <div class="container text-center text-md-start">
+                <div class="d-flex flex-column flex-lg-row gap-5 justify-content-between align-items-center">
+                    <div class="col d-flex flex-column gap-3">
+                        <img src="./images/our-story-image.png" alt="Section Image" class="img-fluid">
+                    </div>
+                    <div class="col d-flex flex-column gap-3">
+                        <h1 class="">Discover the Power of SANA</h1>
+                        <div>
+                            SANA is an all-in-one platform that makes wellness practice management effortless, empowering professionals to handle scheduling, billing, and client records in one place while offering clients a frictionless booking experience.
+                        </div>
+                        <div></div>
+                        <div>
+                            <button class="btn btn-primary p-2 px-4 rounded-pill">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="py-3"></div>
+                        <div class="d-flex flex-column flex-sm-row gap-3 justify-content-between text-center fs-5">
+                            <div class="col">
+                                <h1 class="text-primary">789+</h1>
+                                Happy Customers
+                            </div>
+                            <div class="col">
+                                <h1 class="text-primary">10+</h1>
+                                Years of Experience
+                            </div>
+                        </div>
+                        <div class="py-2"></div>
+                        <div class="d-flex flex-column flex-sm-row gap-3 justify-content-between text-center fs-5">
+                            <div class="col">
+                                <h1 class="text-primary">100+</h1>
+                                Team Member
+                            </div>
+                            <div class="col">
+                                <h1 class="text-primary">100k+</h1>
+                                Downloads
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our story : end -->
+
+    <!-- clients reviews -->
+    <section id="reviews" class="bg-white py-5">
+        <div class="overlay py-3" data-aos="fade-up">
+            <div class="container text-center px-4">
+                <h1 class="mb-3">
+                    What Professionals Are Saying
+                </h1>
+                <div class="col-lg-5 mb-4 mx-auto">
+                    Effortless booking, streamlined management, and a built-in health shop—on mobile.
+                </div>
+            </div>
+            <div class="splide reviews" role="group">
+                <div class="splide__track px-4 py-4">
+                    <ul class="splide__list align-items-center">
+
+                            <li class="splide__slide">
+                                <div class="review-card d-flex flex-column gap-3 border rounded-4 p-4 h-100">
+                                    <i class="fas fa-quote-left fa-2x"></i>
+                                    "SANA addresses the biggest headaches in my practice-scheduling and client documentation. I joined the SANA waitlist because it's the one-stop solution our field has been waiting for."
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div class="">
+                                            <img src="./images/client-review-profile.png" alt="" height="70">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0">Dr. Anika Warren,</h5>
+                                            <div>
+                                                Acupuncturist
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="review-card d-flex flex-column gap-3 border rounded-4 p-4 h-100">
+                                    <i class="fas fa-quote-left fa-2x"></i>
+                                    "SANA addresses the biggest headaches in my practice-scheduling and client documentation. I joined the SANA waitlist because it's the one-stop solution our field has been waiting for."
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div class="">
+                                            <img src="./images/client-review-profile.png" alt="" height="70">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0">Dr. Anika Warren,</h5>
+                                            <div>
+                                                Acupuncturist
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="review-card d-flex flex-column gap-3 border rounded-4 p-4 h-100">
+                                    <i class="fas fa-quote-left fa-2x"></i>
+                                    "SANA addresses the biggest headaches in my practice-scheduling and client documentation. I joined the SANA waitlist because it's the one-stop solution our field has been waiting for."
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div class="">
+                                            <img src="./images/client-review-profile.png" alt="" height="70">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0">Dr. Anika Warren,</h5>
+                                            <div>
+                                                Acupuncturist
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="review-card d-flex flex-column gap-3 border rounded-4 p-4 h-100">
+                                    <i class="fas fa-quote-left fa-2x"></i>
+                                    "SANA addresses the biggest headaches in my practice-scheduling and client documentation. I joined the SANA waitlist because it's the one-stop solution our field has been waiting for."
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div class="">
+                                            <img src="./images/client-review-profile.png" alt="" height="70">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0">Dr. Anika Warren,</h5>
+                                            <div>
+                                                Acupuncturist
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                    </ul>
+                    <div class="py-3"></div>
+                </div>
+            </div>
+            <script>
+                let client_reviews = new Splide('.splide.reviews', {
+                    type: 'loop', perPage: 3, focus: 0, gap: "1rem",
+                    autoplay: true, interval: 3000, pauseOnHover: true,
+                    arrows: false, pagination: true,
+                    breakpoints: {
+                        1200: {
+                            perPage: 2,
+                        },
+                        768: {
+                            perPage: 1,
+                            focus: 1,
+                        }
+                    }
+                }).mount();
+
+                let review_cards = document.querySelectorAll('.review-card');
+                review_cards[client_reviews.index + 7].classList.add('active');
+
+                client_reviews.on( 'move', function () {
+
+                    review_cards = document.querySelectorAll('.review-card');
+                    review_cards.forEach((card, index) => {
+                        card.classList.remove('active');
+                    })
+                    review_cards[client_reviews.index + 7].classList.add('active');
+
+                });
+
+            </script>
+        </div>
+    </section>
+    <!-- clients reviews : end -->
+
+    <!-- feature highlights -->
+    <section id="features" class="">
+        <div class="bg-white overlay py-5">
+            <div class="container text-center text-md-start">
+                <h1 class="text-center">Feature Highlights</h1>
+                <div class="col-md-5 mx-auto text-center">
+                    Effortless booking, streamlined management, and a built-in health shop—on mobile.
+                </div>
+                <div class="py-3"></div>
+                <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-3 justify-content-center">
+
+                        <div class="col">
+                            <div class="next-card p-3 px-4 border rounded-3 h-100">
+                                <div class="mb-4">
+                                    <img src="./images/feature-icon1.png" alt="" height="100">
+                                </div>
+                                <h5>Booking System</h5>
+                                <div class="mb-3">
+                                    Let clients or patients find and schedule with you instantly.
+                                </div>
+                                <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="next-card p-3 px-4 border rounded-3 h-100">
+                                <div class="mb-4">
+                                    <img src="./images/feature-icon2.png" alt="" height="100">
+                                </div>
+                                <h5>Booking System</h5>
+                                <div class="mb-3">
+                                    Let clients or patients find and schedule with you instantly.
+                                </div>
+                                <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="next-card p-3 px-4 border rounded-3 h-100">
+                                <div class="mb-4">
+                                    <img src="./images/feature-icon3.png" alt="" height="100">
+                                </div>
+                                <h5>Booking System</h5>
+                                <div class="mb-3">
+                                    Let clients or patients find and schedule with you instantly.
+                                </div>
+                                <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="next-card p-3 px-4 border rounded-3 h-100">
+                                <div class="mb-4">
+                                    <img src="./images/feature-icon4.png" alt="" height="100">
+                                </div>
+                                <h5>Booking System</h5>
+                                <div class="mb-3">
+                                    Let clients or patients find and schedule with you instantly.
+                                </div>
+                                <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="next-card p-3 px-4 border rounded-3 h-100">
+                                <div class="mb-4">
+                                    <img src="./images/feature-icon5.png" alt="" height="100">
+                                </div>
+                                <h5>Booking System</h5>
+                                <div class="mb-3">
+                                    Let clients or patients find and schedule with you instantly.
+                                </div>
+                                <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="next-card p-3 px-4 border rounded-3 h-100">
+                                <div class="mb-4">
+                                    <img src="./images/feature-icon6.png" alt="" height="100">
+                                </div>
+                                <h5>Booking System</h5>
+                                <div class="mb-3">
+                                    Let clients or patients find and schedule with you instantly.
+                                </div>
+                                <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feature highlights : end -->
+
+    <!-- coming next section -->
+    <section class="d-none">
+        <div class="bg-white overlay py-5">
+            <div class="container text-center text-md-start">
+                <div class="d-flex flex-column flex-lg-row gap-5 justify-content-between align-items-center">
+                    <div class="col d-flex flex-column gap-3">
+                        <h1 class="">What’s Coming Next</h1>
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan volutpat semper. Quisque hendrerit justo quis euismod pretium. Pellentesque bibendum ante sit amet volutpat efficitur.
+                        </div>
+                        <div></div>
+                        <div class="row row-cols-1 row-cols-lg-2 g-3 justify-content-center">
+
+                                <div class="col">
+                                    <div class="next-card p-3 border rounded-3">
+                                        <div class="mb-4">
+                                            <img src="./images/next-icon1.png" alt="" height="80">
+                                        </div>
+                                        <h5>Advanced AI Scheduling</h5>
+                                        <div class="mb-3">
+                                            Suggest optimal times and manage conflicts automatically.
+                                        </div>
+                                        <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="next-card p-3 border rounded-3">
+                                        <div class="mb-4">
+                                            <img src="./images/next-icon2.png" alt="" height="80">
+                                        </div>
+                                        <h5>Advanced AI Scheduling</h5>
+                                        <div class="mb-3">
+                                            Suggest optimal times and manage conflicts automatically.
+                                        </div>
+                                        <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="next-card p-3 border rounded-3">
+                                        <div class="mb-4">
+                                            <img src="./images/next-icon3.png" alt="" height="80">
+                                        </div>
+                                        <h5>Advanced AI Scheduling</h5>
+                                        <div class="mb-3">
+                                            Suggest optimal times and manage conflicts automatically.
+                                        </div>
+                                        <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="next-card p-3 border rounded-3">
+                                        <div class="mb-4">
+                                            <img src="./images/next-icon4.png" alt="" height="80">
+                                        </div>
+                                        <h5>Advanced AI Scheduling</h5>
+                                        <div class="mb-3">
+                                            Suggest optimal times and manage conflicts automatically.
+                                        </div>
+                                        <a href="" class="btn btn-outline-primary rounded-pill px-3">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class=" d-flex flex-column gap-3">
+                        <img src="./images/coming-next-image.png" alt="Section Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- coming next section : end -->
+
+    <!-- FAQ -->
+    <section id="faq" class="bg-white py-5">
+        <div class="overlay p-3" data-aos="fade-up">
+            <div class="containerpx-4">
+                <h1 class="mb-3 text-center ">
+                    Frequently Asked Question
+                </h1>
+                <div class="col-lg-5 mb-4 mx-auto text-center">
+                    Effortless booking, streamlined management, and a built-in health shop—on mobile.
+                </div>
+                <div class="accordion col-md-6 mx-auto" id="faqAccordion">
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading0">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                                    Q: How much does SANA cost?
+                                </button>
+                            </h2>
+                            <div id="collapse0" class="accordion-collapse collapse show" aria-labelledby="heading0" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We haven’t finalized the pricing yet. Since SANA was created by a practicing herbalist, we want the cost to be fair and reflective of real user feedback. After our waitlisters get hands-on experience, we’ll work together to determine a fair price.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    Q: When will the product be launched?
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Simply click the &#39;Join the Waitlist&#39; button and fill out the form.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Q: How secure is my data?
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We use industry-standard security measures to protect your data.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    Q: Can I cancel my subscription?
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, you can cancel your subscription at any time from your account settings.
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ : end -->
+
+    <!-- cta -->
+    <section class="bg-white">
+        <div class="overlay py-5 px-3">
+            <div class="container bg-primary text-white rounded-4  d-flex flex-column gap-2 text-center text-md-start">
+                <div class="col-md-10 mx-auto d-flex flex-column flex-lg-row gap-5 justify-content-between align-items-center px-4 pb-3">
+                    <div class=" d-flex flex-column gap-3">
+                        <img src="./images/iPhone 14.png" alt="Section Image" style="transform: scale(1.2);" height="300">
+                    </div>
+                    <div class="col d-flex flex-column gap-3">
+                        <h1 class="">Get The App Now</h1>
+                        <div>
+                            Experience the convenience at your fingertips. Download the SANA app today and unlock personalized tools, tips, and support to help you thrive.
+                        </div>
+                        <div class="d-flex flex-column flex-sm-row gap-3">
+                            <a href="#">
+                                <img src="./images/apple-store.png" alt="" height="40">
+                            </a>
+                            <a href="#">
+                                <img src="./images/google-store.png" alt="" height="40">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cta : end -->
+     
+    <div class="py-5"></div>
+</main>
+<!-- footer section -->
+<!-- footer -->
+<footer class="bg-white text-center text-md-start">
+    <div class="container">
+        <div class="row g-4 small justify-content-center justify-content-md-between">
+            <div class="col-md-6 col-lg-4 pe-md-5">
+                <div class="mb-3">
+                    <img class="img-fluid" src="./images/logo.png" alt="" style="max-height: 3rem;">
+                </div>
+                <div>
+                    Empowering you with tools and resources for a healthier, happier life. SANA is here to support your journey every step of the way.
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="p-2">
+                    <h5 class="mb-3 fw-bold pb-2">Navigation</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="p-2">
+                    <h5 class="mb-3 fw-bold pb-2 text-nowrap">Legal Information</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="p-2">
+                    <h5 class="mb-3 fw-bold pb-2">Contact</h5>
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-start gap-2">
+                        <li><a href="#" class="btn btn-outline-primary w-icon"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="btn btn-outline-primary w-icon"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" class="btn btn-outline-primary w-icon"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="btn btn-outline-primary w-icon"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex bg-primary text-white py-2 justify-content-center flex-column flex-md-row gap-4 mt-3 text-light small">
+        <div class="">
+            © 2025 Copyright | All rights reserved
+        </div>
+    </div>
+</footer>
+<!-- footer : end -->
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/bootstrap.js"></script>
+
+</body>
+</html>
