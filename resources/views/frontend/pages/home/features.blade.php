@@ -12,7 +12,7 @@
                     <div class="col">
                         <div class="next-card p-3 px-4 border rounded-3 h-100">
                             <div class="mb-4">
-                                <img src="./images/feature-icon1.png" alt="" height="100">
+                                <img src="{{asset('assets/images/feature-icon1.png')}}" alt="" height="100">
                             </div>
                             <h5>Booking System</h5>
                             <div class="mb-3">
@@ -27,7 +27,7 @@
                     <div class="col">
                         <div class="next-card p-3 px-4 border rounded-3 h-100">
                             <div class="mb-4">
-                                <img src="./images/feature-icon2.png" alt="" height="100">
+                                <img src="{{asset('assets/images/feature-icon2.png')}}" alt="" height="100">
                             </div>
                             <h5>Booking System</h5>
                             <div class="mb-3">
@@ -42,7 +42,7 @@
                     <div class="col">
                         <div class="next-card p-3 px-4 border rounded-3 h-100">
                             <div class="mb-4">
-                                <img src="./images/feature-icon3.png" alt="" height="100">
+                                <img src="{{asset('assets/images/feature-icon3.png')}}" alt="" height="100">
                             </div>
                             <h5>Booking System</h5>
                             <div class="mb-3">
@@ -57,7 +57,7 @@
                     <div class="col">
                         <div class="next-card p-3 px-4 border rounded-3 h-100">
                             <div class="mb-4">
-                                <img src="./images/feature-icon4.png" alt="" height="100">
+                                <img src="{{asset('assets/images/feature-icon4.png')}}" alt="" height="100">
                             </div>
                             <h5>Booking System</h5>
                             <div class="mb-3">
@@ -72,7 +72,7 @@
                     <div class="col">
                         <div class="next-card p-3 px-4 border rounded-3 h-100">
                             <div class="mb-4">
-                                <img src="./images/feature-icon5.png" alt="" height="100">
+                                <img src="{{asset('assets/images/feature-icon5.png')}}" alt="" height="100">
                             </div>
                             <h5>Booking System</h5>
                             <div class="mb-3">
@@ -87,7 +87,7 @@
                     <div class="col">
                         <div class="next-card p-3 px-4 border rounded-3 h-100">
                             <div class="mb-4">
-                                <img src="./images/feature-icon6.png" alt="" height="100">
+                                <img src="{{asset('assets/images/feature-icon6.png')}}" alt="" height="100">
                             </div>
                             <h5>Booking System</h5>
                             <div class="mb-3">

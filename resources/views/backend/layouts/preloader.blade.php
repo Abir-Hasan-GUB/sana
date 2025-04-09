@@ -2,10 +2,10 @@
 <div class="preloader" id="preloader">
     <div class="preloader">
         <div class="waviy position-relative">
+            <span class="d-inline-block">S</span>
             <span class="d-inline-block">A</span>
-            <span class="d-inline-block">B</span>
-            <span class="d-inline-block">B</span>
-            <span class="d-inline-block">C</span>
+            <span class="d-inline-block">N</span>
+            <span class="d-inline-block">A</span>
         </div>
     </div>
 </div>

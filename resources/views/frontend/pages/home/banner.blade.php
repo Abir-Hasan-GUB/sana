@@ -11,13 +11,13 @@
                     <div class="mb-3">
                         Book or get booked, manage your practice, and easily access a health shop—right from one powerful mobile app.
                     </div>
-                    <a href="index.html" class="btn btn-primary rounded-pill p-2 px-4">
+                    <a href="{{route('home')}}" class="btn btn-primary rounded-pill p-2 px-4">
                         Join the Waitlist
                     </a>
                     <div class="py-4 d-none d-lg-block"></div>
                 </div>
                 <div class="col mt-auto">
-                    <img src="./images/hero.png" alt="" class="img-fluid">
+                    <img src="{{asset('assets/images/hero.png')}}" alt="" class="img-fluid">
                 </div>
             </div>
         </div>

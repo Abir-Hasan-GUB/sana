@@ -6,26 +6,17 @@
                 <div class="splide clients" role="group">
                     <div class="splide__track">
                         <ul class="splide__list align-items-center text-center">
-                            <li class="splide__slide"><img src="./images/client1.png" alt="" loading="lazy" height="40" /></li>
+                            <li class="splide__slide"><img class="rounded" src="{{asset('assets/images/brand-1.jpeg')}}" alt="" loading="lazy" height="100" /></li>
+                            <li class="splide__slide"><img class="rounded" src="{{asset('assets/images/brand-2.jpeg')}}" alt="" loading="lazy" height="100" /></li>
+                            <li class="splide__slide"><img class="rounded" src="{{asset('assets/images/brand-3.jpeg')}}" alt="" loading="lazy" height="100" /></li>
+                            <li class="splide__slide"><img class="rounded" src="{{asset('assets/images/brand-4.jpeg')}}" alt="" loading="lazy" height="100" /></li>
+                            <li class="splide__slide"><img class="rounded" src="{{asset('assets/images/brand-5.jpeg')}}" alt="" loading="lazy" height="100" /></li>
+                            <li class="splide__slide"><img class="rounded" src="{{asset('assets/images/brand-6.jpeg')}}" alt="" loading="lazy" height="100" /></li>
+                            <li class="splide__slide"><img class="rounded" src="{{asset('assets/images/brand-7.jpeg')}}" alt="" loading="lazy" height="100" /></li>
                         </ul>
                     </div>
                 </div>
-                <script>
-                    new Splide('.splide.clients', {
-                        type: 'loop', drag: 'free',
-                        focus: 'center', perPage: 5,
-                        autoScroll: { speed: 1, },
-                        arrows: false, pagination: false,
-                        breakpoints: {
-                            1200: {
-                                perPage: 3,
-                            },
-                            768: {
-                                perPage: 1,
-                            }
-                        }
-                    }).mount(window.splide.Extensions);
-                </script>
+
             </div>
         </div>
     </section>

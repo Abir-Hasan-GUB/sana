@@ -11,12 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('magazines', function (Blueprint $table) {
+        Schema::create('faqs', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->string('pdf_file'); // Stores the path of the PDF
-            $table->string('banner'); // Stores the path of the banner image
-            $table->timestamps();
+            $table->string('question');
+            $table->text('answer');
+            $table->timestamps(); // created_at & updated_at
         });
     }
 
@@ -25,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('magazines');
+        Schema::dropIfExists('faqs');
     }
 };

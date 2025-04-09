@@ -3,7 +3,7 @@
     <div class="logo position-relative">
         <a href="{{ route('dashboard') }}" class="d-block text-decoration-none position-relative">
             {{-- <img src="assets/images/logo-icon.png" alt="logo-icon"> --}}
-            <span class="logo-text fw-bold text-dark">ABBC</span>
+            <span class="logo-text fw-bold text-dark">SANA</span>
         </a>
         <button
             class="sidebar-burger-menu bg-transparent p-0 border-0 opacity-0 z-n1 position-absolute top-50 end-0 translate-middle-y"
@@ -31,7 +31,7 @@
             <li class="menu-item {{ request()->routeIs('contact-us.index') ? 'active' : '' }}">
                 <a href="{{ route('contact-us.index') }}" class="menu-link">
                     <span class="material-symbols-outlined menu-icon">mail</span>
-                    <span class="title">Messages</span>
+                    <span class="title">Waitlist</span>
                 </a>
             </li>
             {{-- Home --}}
@@ -41,56 +41,22 @@
                     <span class="title">Home Page</span>
                 </a>
             </li>
-            {{-- About Us --}}
+            {{-- Feature Us --}}
             <li class="menu-item {{ request()->routeIs('aboutPage.index') ? 'active' : '' }}">
                 <a href="{{route('aboutPage.index')}}" class="menu-link">
                     <span class="material-symbols-outlined menu-icon">info</span>
-                    <span class="title">About Us Page</span>
+                    <span class="title">Feature Page</span>
                 </a>
             </li>
 
-              {{-- Membership Page --}}
-              <li class="menu-item {{ request()->routeIs('membershipPage.index') ? 'active' : '' }}">
-                <a href="{{ route('membershipPage.index') }}" class="menu-link">
+              {{-- FAQ Page --}}
+              <li class="menu-item {{ request()->routeIs('faqPage.index') ? 'active' : '' }}">
+                <a href="{{ route('faqPage.index') }}" class="menu-link">
                     <span class="material-symbols-outlined menu-icon">card_membership</span>
-                    <span class="title">Membership Page</span>
+                    <span class="title">FAQ Page</span>
                 </a>
             </li>
-
-            {{-- Companies --}}
-            <li class="menu-item {{ request()->routeIs('company-registration.index') ? 'active' : '' }}">
-                <a href="{{ route('company-registration.index') }}" class="menu-link ">
-                    <span class="material-symbols-outlined menu-icon">business</span>
-                    <span class="title">Companies</span>
-                </a>
-            </li>
-
-
-            {{-- Other Pages --}}
-            <li class="menu-item {{ request()->routeIs('team.create') ? 'active' : '' }}">
-                <a href="{{ route('team.create') }}" class="menu-link ">
-                    <span class="material-symbols-outlined menu-icon">group_add</span>
-                    <span class="title">Add Committee Member</span>
-                </a>
-            </li>
-            <li class="menu-item {{ request()->routeIs('team.index') ? 'active' : '' }}">
-                <a href="{{ route('team.index') }}" class="menu-link ">
-                    <span class="material-symbols-outlined menu-icon">groups</span>
-                    <span class="title">Committee List</span>
-                </a>
-            </li>
-            <li class="menu-item {{ request()->routeIs('event.index') ? 'active' : '' }}">
-                <a href="{{ route('event.index') }}" class="menu-link ">
-                    <span class="material-symbols-outlined menu-icon">event</span>
-                    <span class="title">Events</span>
-                </a>
-            </li>
-            <li class="menu-item {{ request()->routeIs('magazines.index') ? 'active' : '' }}">
-                <a href="{{ route('magazines.index') }}" class="menu-link ">
-                    <span class="material-symbols-outlined menu-icon">menu_book</span>
-                    <span class="title">Magazines</span>
-                </a>
-            </li>
+           
             <li class="menu-item {{ request()->routeIs('settings.index') ? 'active' : '' }}">
                 <a href="{{ route('settings.index') }}" class="menu-link ">
                     <span class="material-symbols-outlined menu-icon">tune</span>

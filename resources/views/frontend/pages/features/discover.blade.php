@@ -1,12 +1,12 @@
-   <!-- our story -->
-   <section id="story" class="bg-white">
-    <div class="overlay py-5">
+<!-- discover section -->
+<section  class="bg-white">
+    <div class="overlay py-4">
         <div class="container text-center text-md-start">
             <div class="d-flex flex-column flex-lg-row gap-5 justify-content-between align-items-center">
-                <div class="col d-flex flex-column gap-3">
-                    <img src="{{asset('assets/images/our-story-image.png')}}" alt="Section Image" class="img-fluid">
+                <div class="col d-flex flex-column gap-3 order-2 order-lg-1">
+                    <img src="{{asset('assets/images/content-image2.png')}}" alt="Section Image" class="img-fluid">
                 </div>
-                <div class="col d-flex flex-column gap-3">
+                <div class="col d-flex flex-column gap-3 order-1 order-lg-2">
                     <h1 class="">Discover the Power of SANA</h1>
                     <div>
                         SANA is an all-in-one platform that makes wellness practice management effortless, empowering professionals to handle scheduling, billing, and client records in one place while offering clients a frictionless booking experience.
@@ -44,4 +44,3 @@
         </div>
     </div>
 </section>
-<!-- our story : end -->

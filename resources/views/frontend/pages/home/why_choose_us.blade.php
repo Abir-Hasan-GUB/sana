@@ -13,7 +13,8 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3" data-aos="zoom-out" data-aos-offset="0">
                         <div class="d-flex flex-column gap-2 rounded-3 p-4 h-100">
                             <div class="mb-3">
-                                <img src="./images/why-icon1.png" alt="" height="100">
+                                <img src="{{asset('assets/images/why-icon1.png')}}" alt="" height="100">
+
                             </div>
                             <h5 class="mb-2 fw-bold">All-in-One Practice</h5>
                             <div class="small">
@@ -21,7 +22,7 @@
                             </div>
                             <div class="py-2"></div>
                             <div class="mt-auto">
-                                <a href="index.html" class="btn btn-outline-primary rounded-pill p-2 px-4">
+                                <a href="{{route('home')}}" class="btn btn-outline-primary rounded-pill p-2 px-4">
                                     Learn More
                                 </a>
                             </div>
@@ -31,7 +32,7 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3" data-aos="zoom-out" data-aos-offset="0">
                         <div class="d-flex flex-column gap-2 rounded-3 p-4 h-100">
                             <div class="mb-3">
-                                <img src="./images/why-icon2.png" alt="" height="100">
+                                <img src="{{asset('assets/images/why-icon2.png')}}" alt="" height="100">
                             </div>
                             <h5 class="mb-2 fw-bold">All-in-One Practice</h5>
                             <div class="small">
@@ -39,7 +40,7 @@
                             </div>
                             <div class="py-2"></div>
                             <div class="mt-auto">
-                                <a href="index.html" class="btn btn-outline-primary rounded-pill p-2 px-4">
+                                <a href="{{route('home')}}" class="btn btn-outline-primary rounded-pill p-2 px-4">
                                     Learn More
                                 </a>
                             </div>
@@ -49,7 +50,7 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3" data-aos="zoom-out" data-aos-offset="0">
                         <div class="d-flex flex-column gap-2 rounded-3 p-4 h-100">
                             <div class="mb-3">
-                                <img src="./images/why-icon3.png" alt="" height="100">
+                                <img src="{{asset('assets/images/why-icon3.png')}}" alt="" height="100">
                             </div>
                             <h5 class="mb-2 fw-bold">All-in-One Practice</h5>
                             <div class="small">
@@ -57,7 +58,7 @@
                             </div>
                             <div class="py-2"></div>
                             <div class="mt-auto">
-                                <a href="index.html" class="btn btn-outline-primary rounded-pill p-2 px-4">
+                                <a href="{{route('home')}}" class="btn btn-outline-primary rounded-pill p-2 px-4">
                                     Learn More
                                 </a>
                             </div>
@@ -67,7 +68,7 @@
                     <div class="col-sm-6 col-lg-4 col-xl-3" data-aos="zoom-out" data-aos-offset="0">
                         <div class="d-flex flex-column gap-2 rounded-3 p-4 h-100">
                             <div class="mb-3">
-                                <img src="./images/why-icon4.png" alt="" height="100">
+                                <img src="{{asset('assets/images/why-icon4.png')}}" alt="" height="100">
                             </div>
                             <h5 class="mb-2 fw-bold">All-in-One Practice</h5>
                             <div class="small">
@@ -75,7 +76,7 @@
                             </div>
                             <div class="py-2"></div>
                             <div class="mt-auto">
-                                <a href="index.html" class="btn btn-outline-primary rounded-pill p-2 px-4">
+                                <a href="{{route('home')}}" class="btn btn-outline-primary rounded-pill p-2 px-4">
                                     Learn More
                                 </a>
                             </div>

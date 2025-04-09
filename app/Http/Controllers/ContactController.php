@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\ContactsExport;
 use App\Models\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Maatwebsite\Excel\Facades\Excel;
 
 class ContactController extends Controller
 {
@@ -32,11 +34,10 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         // Validation rules
+        // dd($request->all());
         $rules = [
             'fullname' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'industry' => 'required|string|max:255',
-            'message' => 'required|string',
         ];
 
         // Validate the request
@@ -52,13 +53,11 @@ class ContactController extends Controller
         Contact::create([
             'fullname' => $request->input('fullname'),
             'email' => $request->input('email'),
-            'industry' => $request->input('industry'),
-            'message' => $request->input('message'),
             'is_seen' => 0, // Default to unseen
         ]);
 
         // Redirect with success message
-        return redirect()->back()->with('success', 'Your message has been sent successfully!');
+        return redirect()->back()->with('success', 'Your request sent successfully!');
     }
 
     /**
@@ -107,5 +106,10 @@ class ContactController extends Controller
     public function destroy(string $id)
     {
         //
+    }
+
+    public function export()
+    {
+        return Excel::download(new ContactsExport, 'contacts.xlsx');
     }
 }

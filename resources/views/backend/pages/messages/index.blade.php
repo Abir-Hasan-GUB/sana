@@ -27,6 +27,9 @@
             <div class="card-body p-4">
                 <div class="default-table-area all-products">
                     <div class="table-responsive">
+                       <div class="text-end mb-3">
+                        <a href="{{route('contacts.export')}}" class="btn btn-success text-white">Export All Waitlist</a>
+                       </div>
                         <table class="table align-middle" id="myTable">
                             <thead>
                                 <tr>
@@ -34,7 +37,7 @@
                                     <th scope="col">Time</th>
                                     <th scope="col">Full Name</th>
                                     <th scope="col">Email</th>
-                                    <th scope="col">Industry</th>
+                                    {{-- <th scope="col">Industry</th> --}}
                                     <th scope="col">Is Seen</th>
                                     <th scope="col">Action</th>
                                 </tr>
@@ -48,7 +51,7 @@
                                         </td>
                                         <td class="text-secondary">{{ $message->fullname }}</td>
                                         <td class="text-secondary">{{ $message->email }}</td>
-                                        <td class="text-secondary">{{ $message->industry }}</td>
+                                        {{-- <td class="text-secondary">{{ $message->industry }}</td> --}}
                                         <td class="text-secondary">
                                             @if ($message->is_seen == 1)
                                                 <button class="btn btn-sm btn-success text-white">Seen</button>
